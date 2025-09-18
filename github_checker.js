@@ -4,7 +4,7 @@ let total = 0;
 //inserer la clé ici
 let githubToken = '';
 
-// exemple clé github_pat_'numero'
+// exemple clé :  "github_pat_(numero)"
 
 function updateProgress(curr, tot, txt) {
     current = curr;
