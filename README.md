@@ -1,5 +1,6 @@
-# GitHub Async Checker
 
+# GitHub Async Checker
+<img width="1283" height="469" alt="image" src="https://github.com/user-attachments/assets/5c4c6506-7c1e-495e-b66f-5e65cf5063e8" />
 Un outil simple pour vérifier le statut des repositories GitHub étoilés.
 
 ## Fonctionnalités
@@ -16,7 +17,11 @@ Un outil simple pour vérifier le statut des repositories GitHub étoilés.
    ```javascript
    let githubToken = 'votre_token_ici';
    ```
-3. Ouvrez `index.html` dans votre navigateur
+3. Démarrez un serveur local :
+   ```bash
+   python3 -m http.server --bind 127.0.0.1 5000
+   ```
+4. Ouvrez `http://127.0.0.1:5000` dans votre navigateur
 
 ## Utilisation
 
@@ -34,3 +39,4 @@ Le fichier JSON doit contenir un tableau d'objets avec :
 ## Token GitHub
 
 Pour utiliser l'API GitHub, vous devez créer un token personnel sur [GitHub Settings > Developer settings > Personal access tokens](https://github.com/settings/tokens).
+
