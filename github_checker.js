@@ -2,7 +2,7 @@ let current = 0;
 let total = 0;
 
 //inserer la clé ici
-let githubToken = '';
+const githubToken = '';
 
 // exemple clé :  "github_pat_(numero)"
 
