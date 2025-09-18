@@ -1,0 +1,128 @@
+html, body {
+      height: 100%;
+      background-color: white !important;
+      margin: 0;
+      padding: 2rem;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      color: #555;
+      margin-bottom: 2rem;
+    }
+
+    .bold {
+      font-weight: bold;
+    }
+
+    .top-bar {
+      display: flex;
+      align-items: flex-end;
+      gap: 2rem;
+      flex-wrap: wrap;
+      margin-bottom: 2rem;
+    }
+
+    .select select {
+      background-color: white;
+      border: 2px solid #00d1b2;
+      color: #333;
+      padding: 0.5rem;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+
+    #progress-container {
+      display: flex;
+      flex-direction: column;
+      min-width: 400px;
+    }
+
+    #progress-bar {
+      width: 100%;
+      height: 1rem;
+      appearance: none;
+      border: none;
+    }
+
+
+    #progress-bar::-webkit-progress-bar {
+      background-color: white;
+      border: 2px solid #000;
+      border-radius: 6px;
+    }
+
+    #progress-bar::-webkit-progress-value {
+      background-color: black;
+      border-radius: 6px;
+    }
+
+    #progress-bar::-moz-progress-bar {
+      background-color: black;
+    }
+
+    #progress-text {
+      margin-top: 0.5rem;
+      font-weight: bold;
+    }
+
+    .button.go {
+      background-color: #00d1b2;
+      color: white;
+      font-weight: bold;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+
+    .button.go:hover {
+      background-color: #00b89c;
+    }
+
+    #results-box {
+      margin-top: 3rem;
+    }
+
+    .output-header {
+      background-color: #222;
+      color: white;
+      font-weight: bold;
+      padding: 0.75rem 1rem;
+      border-radius: 4px 4px 0 0;
+    }
+
+    .output-body {
+      background-color: #f9f9f9;
+      padding: 1rem;
+      border: 1px solid #ddd;
+      border-top: none;
+      font-family: monospace;
+      overflow-x: auto;
+    }
+
+    .result {
+      margin-bottom: 0.5rem;
+      color: #333;
+    }
+
+    .result.ok {
+      color: green;
+    }
+
+    .result.ko {
+      color: red;
+    }
+
+    .result a {
+      color: black;
+      text-decoration: underline;
+    }

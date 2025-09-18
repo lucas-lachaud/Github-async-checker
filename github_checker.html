@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>TP2 Web API Fetch</title>
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+    <link rel="stylesheet" href="github_checker.css" />
+    <script src="github_checker.js" defer></script>
+  </head>
+  <body>
+
+    <h1>Welcome to the Async Checker</h1>
+    <h2>Click below to <span class="bold">launch async checker!</span></h2>
+
+    <div class="top-bar">
+      <div class="select">
+        <select id="file-selector">
+          <option value="">Select a File</option>
+          <option value="data/TheBody983-starred.json">TheBody983-starred.json</option>
+          <option value="data/Webcretaire-starred.json">Webcretaire-starred.json</option>
+          <option value="data/romulusFR-starred.json">romulusFR-starred.json</option>
+        </select>
+      </div>
+
+      <div id="progress-container">
+        <div id="progress-text">Progress</div>
+        <progress id="progress-bar" value="0" max="100"></progress>
+      </div>
+
+      <button class="button go" onclick="downloadAndCheck()">Go!</button>
+    </div>
+
+    <div id="results-box">
+      <div class="output-header">Output</div>
+      <div class="output-body" id="results">
+      </div>
+    </div>
+
+  </body>
+</html>
