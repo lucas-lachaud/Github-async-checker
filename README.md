@@ -15,7 +15,7 @@ Un outil simple pour vérifier le statut des repositories GitHub étoilés.
 1. Téléchargez les fichiers du projet
 2. Ajoutez votre token GitHub dans `github_checker.js` :
    ```javascript
-   let githubToken = 'votre_token_ici';
+   const githubToken = 'votre_token_ici';
    ```
 3. Démarrez un serveur local :
    ```bash
